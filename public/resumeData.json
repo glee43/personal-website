@@ -1,139 +1,138 @@
 {
   "main": {
-    "name":"George Y Lee",
-    "occupation":"Sophmore at Brown University",
+    "name": "George Y Lee",
+    "occupation": "Sophmore at Brown University",
     "description": "studying Computer Science and Computer Engineering.",
-    "image":"profilepic.jpg",
-    "bio":"George is an aspiring software and web developer studying Computer Science and Computer Engineering at Brown University. He has a deep passion for great food, video games, and of course, coding. George also loves traveling and has even been to South Africa for research on rhino dehorining",
-    "contactmessage":"Feel free to contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
+    "image": "profilepic.jpg",
+    "bio": "George is an aspiring software and web developer studying Computer Science and Computer Engineering at Brown University. He has a deep passion for great food, video games, and of course, coding. George also loves traveling and has even been to South Africa for research on rhino dehorning",
+    "contactmessage": "Please contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
     "email": "george_lee@brown.edu",
     "phone": "949-887-5234",
-    "address":{
-      "street":"1 Montecito Dr",
-      "city":"Corona del Mar",
-      "state":"CA",
+    "address": {
+      "street": "1 Montecito Dr",
+      "city": "Corona del Mar",
+      "state": "CA",
       "zip": "92625"
     },
     "website": "http://georgeylee.me",
-    "resumedownload":"https://docs.google.com/document/d/1L883yVOYnRFDrcEhfEgGrWa8db05akzHKKxarmE-mDA/export?format=pdf",
-    "social":[
+    "resumedownload": "https://docs.google.com/document/d/1L883yVOYnRFDrcEhfEgGrWa8db05akzHKKxarmE-mDA/export?format=pdf",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/george-lee-71a356133/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/george-lee-71a356133/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"http://github.com/glee43",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/glee43",
+        "className": "fa fa-github"
       },
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/profile.php?id=100007865705201",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100007865705201",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/georgelee114",
-        "className":"fa fa-instagram"
-      }   
-     
-    ]
-  },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"Brown University",
-        "degree":"Computer Science or Computer Engineering",
-        "graduated":"Expected May 2021",
-        "description":"Brown University's open curriculum allows me to deepen my passion for Computer Science and Engineering as well as explore topics in English, Math, Chemistry, and Entrepreneurship. I keep busy by working on a variety of personal projects, attending hackathons, working on a Formula One Racing Car, and exploring the East Coast."
-      },
-      {
-        "school":"Corona del Mar High School",
-        "degree":"Valedictorian",
-        "graduated":"June 2017",
-        "description":"Throughout high school, I took 13 AP courses and was a valedictorian in a class of over 500 students. I co-founded and was Vice President of my schools robotics club, sang as a baritone for the school's Madrigals choir, and competed in Shot Put and Discus. Every month, I would volunteer at the Discovery Cube OC and teach young children the wonders of science and technology. I also conducted breast cancer research at the University of California, Irvine, and studied the effects of dehorning rhinos at Mankwe Reserve in South Africa."
-      }
-    ],
-    "work":[
-      {
-        "company":"Gaggle",
-        "title":"Software Developer",
-        "years":"April 2018 - Present",
-        "description":"Developing a community centered delivery app to bridge gaps between deliverers and shoppers. Developing with React-Native. \n https://download.gaggle.delivery/"
-      },
-      {
-        "company":"Brown FSAE Formula Racing Club",
-        "title":"Steering Subsystem Lead",
-        "years":"Sept 2017 - Present",
-        "description":"Learned to  machine metal using mills and lathes. Created chain guard from scratch from designing the part on Solidworks to actual fabrication with a solid piece of stock. Leading steering subsystem."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Java",
-        "level":"80%"
-      }, 
-      {
-        "name":"Python",
-        "level":"75%"
-      },
-      {
-        "name":"Javascript",
-        "level":"75%"
-      },
-      {
-        "name":"C",
-        "level":"50%"
-      },
-      {
-        "name":"React",
-        "level":"80%"
-      },
-      {
-        "name":"HTML/CSS",
-        "level":"75%"
-      },
-      {
-        "name":"Adobe Illustrator",
-        "level":"65%"
-      }, 
-      {
-        "name":"Adobe XD",
-        "level":"75%"
-      },
-      {
-        "name":"Solidworks",
-        "level":"70%"
+        "name": "instagram",
+        "url": "http://instagram.com/georgelee114",
+        "className": "fa fa-instagram"
       }
     ]
   },
-  "portfolio":{
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Brown University",
+        "degree": "Computer Science or Computer Engineering",
+        "graduated": "Expected May 2021",
+        "description": "Brown University's open curriculum allows me to deepen my passion for Computer Science and Engineering as well as explore topics in English, Math, Chemistry, and Entrepreneurship. I keep busy by working on a variety of personal projects, attending hackathons, working on a Formula One Racing Car, and exploring the East Coast."
+      },
+      {
+        "school": "Corona del Mar High School",
+        "degree": "Valedictorian",
+        "graduated": "June 2017",
+        "description": "Throughout high school, I took 13 AP courses and was a valedictorian in a class of over 500 students. I Co-Founded and was Vice President of my school's robotics club, sang as a baritone for the CDMHS Madrigals choir, and competed in Shot Put and Discus. Every month, I would volunteer at the Discovery Cube OC and teach young children the wonders of science and technology. I also conducted breast cancer research at the University of California, Irvine, and studied the effects of dehorning rhinos at Mankwe Reserve in South Africa."
+      }
+    ],
+    "work": [
+      {
+        "company": "Gaggle",
+        "title": "Software Developer",
+        "years": "April 2018 - Present",
+        "description": "Developing a community centered delivery app to bridge gaps between deliverers and shoppers. Developing with React-Native. \n https://download.gaggle.delivery/"
+      },
+      {
+        "company": "Brown FSAE Formula Racing Club",
+        "title": "Steering Subsystem Lead",
+        "years": "Sept 2017 - Present",
+        "description": "Learned to  machine metal using mills and lathes. Created chain guard from scratch from designing the part on Solidworks to actual fabrication with a solid piece of stock. Leading steering subsystem."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "75%"
+      },
+      {
+        "name": "Javascript",
+        "level": "75%"
+      },
+      {
+        "name": "C",
+        "level": "50%"
+      },
+      {
+        "name": "React",
+        "level": "80%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "75%"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "level": "65%"
+      },
+      {
+        "name": "Adobe XD",
+        "level": "75%"
+      },
+      {
+        "name": "Solidworks",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
     "projects": [
       {
-        "title":"Cerebricks",
-        "category":"Collaborative networking site for skill enhancement",
-        "image":"cerebricks_logo.jpg",
-        "url":"http://www.cerebricks.com/"
+        "title": "Cerebricks",
+        "category": "Collaborative networking site for skill enhancement",
+        "image": "cerebricks_logo.jpg",
+        "url": "http://www.cerebricks.com/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
