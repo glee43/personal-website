@@ -24,76 +24,59 @@ class Contact extends Component {
 
           <div className="ten columns">
             <p className="lead">{message}</p>
-            <p className="lead" style={{ color: "red" }}>
-              {/* Still setting up the email function, please just email me at
-              george_lee@brown.edu in the meantime! */}
-            </p>
           </div>
         </div>
 
         <div className="row">
           <div className="eight columns">
-            <form action="https://formspree.io/george_lee@brown.edu" method="post" id="contactForm" name="contactForm">
-              <fieldset>
-                <div>
-                  <label htmlFor="contactName">
-                    Name <span className="required">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactName"
-                    name="contactName"
-                    onChange={this.handleChange}
-                  />
-                </div>
+            <form
+              method="POST"
+              action="https://formspree.io/george_lee@brown.edu"
+            >
+              <label htmlFor="contactName">
+                Name <span className="required">*</span>
+              </label>
+              <input
+                type="text"
+                defaultValue=""
+                size="35"
+                id="contactName"
+                name="name"
+              />
 
-                <div>
-                  <label htmlFor="contactEmail">
-                    Email <span className="required">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactEmail"
-                    name="contactEmail"
-                    onChange={this.handleChange}
-                  />
-                </div>
+              <label htmlFor="contactEmail">
+                Email <span className="required">*</span>
+              </label>
+              <input
+                type="email"
+                defaultValue=""
+                size="35"
+                id="contactEmail"
+                name="email"
+              />
 
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactSubject"
-                    name="contactSubject"
-                    onChange={this.handleChange}
-                  />
-                </div>
+              <label htmlFor="contactSubject">Subject</label>
+              <input
+                type="text"
+                defaultValue=""
+                size="35"
+                id="contactSubject"
+                name="contactSubject"
+              />
 
-                <div>
-                  <label htmlFor="contactMessage">
-                    Message <span className="required">*</span>
-                  </label>
-                  <textarea
-                    cols="50"
-                    rows="15"
-                    id="contactMessage"
-                    name="contactMessage"
-                  />
-                </div>
+              <label htmlFor="contactMessage">
+                Message <span className="required">*</span>
+              </label>
+              <textarea
+                cols="50"
+                rows="15"
+                id="contactMessage"
+                name="message"
+              />
 
-                <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
-                </div>
-              </fieldset>
+              <button className="submit" type="submit">
+                Submit
+              </button>
             </form>
 
             <div id="message-warning"> Error boy</div>
