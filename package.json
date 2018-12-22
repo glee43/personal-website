@@ -6,7 +6,7 @@
     "jquery": "^3.3.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-ga": "^2.5.3",
+    "react-ga": "^2.5.6",
     "react-html-email": "^3.0.0",
     "react-scripts": "2.0.4"
   },

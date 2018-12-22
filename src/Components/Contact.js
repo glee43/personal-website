@@ -25,15 +25,15 @@ class Contact extends Component {
           <div className="ten columns">
             <p className="lead">{message}</p>
             <p className="lead" style={{ color: "red" }}>
-              Still setting up the email function, please just email me at
-              george_lee@brown.edu in the meantime!
+              {/* Still setting up the email function, please just email me at
+              george_lee@brown.edu in the meantime! */}
             </p>
           </div>
         </div>
 
         <div className="row">
           <div className="eight columns">
-            <form action="" method="post" id="contactForm" name="contactForm">
+            <form action="https://formspree.io/george_lee@brown.edu" method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
