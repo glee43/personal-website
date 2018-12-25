@@ -38,7 +38,7 @@ class Portfolio extends Component {
                   }
                 }}
               />
-              <p>{projects.category}</p>
+              {/* <p>{projects.category}</p> */}
             </div>
 
             {/* Overlay component */}
