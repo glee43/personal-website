@@ -8,8 +8,19 @@ class Portfolio extends Component {
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <div className="video-wrapper">
-              <h5>{projects.title}</h5>
+            <h5
+              style={{
+                color: "#666969"
+              }}
+            >
+              {projects.title}
+            </h5>
+
+            <div
+              style={{
+                width: "100%"
+              }}
+            >
               <ReactPlayer
                 url={projects.video}
                 playing
@@ -27,7 +38,7 @@ class Portfolio extends Component {
                   }
                 }}
               />
-              {/* <p>{projects.category}</p> */}
+              <p>{projects.category}</p>
             </div>
 
             {/* Overlay component */}

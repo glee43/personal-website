@@ -455,7 +455,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: #000000;
   padding-top: 90px;
   padding-bottom: 60px;
 }
@@ -465,7 +465,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #666969;
+  color: #ffffff;
 }
 #portfolio h2 {
   font: 25px/24px "opensans-semibold", sans-serif;
@@ -474,15 +474,16 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   text-decoration: underline;
-  color: #262b2b;
+  color: #b8b0b0;
 }
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: #ebeeee;
-
+  background: #000000; /* #ebeeee;*/
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   position: relative;
   align-content: center;
@@ -503,21 +504,25 @@ ul#nav li.current a {
 .video-wrapper {
   height: 100%;
   width: 100%;
-  min-height: 200px;
+  min-height: 300px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .player-wrapper {
   width: auto;
   height: auto;
-  align-self: "center";
+  align-self: center;
 }
 .react-player {
   position: relative;
-  align-self: "center";
+  align-self: center;
 }
 
 .react-player > div {
   position: absolute;
-  align-self: "center";
+  align-self: center;
 }
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -570,8 +575,9 @@ ul#nav li.current a {
 }
 .portfolio-item .portfolio-item-meta h5 {
   font: 14px/21px "opensans-bold", sans-serif;
-  align-self: "center";
-  color: #fff;
+  align-self: center;
+  text-align: center;
+  color: #139292;
 }
 .portfolio-item .portfolio-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
