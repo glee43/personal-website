@@ -57,10 +57,10 @@
     ],
     "work": [
       {
-        "company": "Gaggle",
-        "title": "Software Developer",
-        "years": "April 2018 - Present",
-        "description": "Developing a community centered delivery app to bridge gaps between deliverers and shoppers. Developing with React-Native. \n https://download.gaggle.delivery/"
+        "company": "Brown Robotics Lab",
+        "title": "Software Researcher",
+        "years": "October 2018 - Present",
+        "description": "Looking into semantic mapping for places identification with ROS."
       },
       {
         "company": "Brown FSAE Formula Racing Club",
@@ -109,17 +109,86 @@
     ]
   },
   "portfolio": {
-    "projects": [
+    "cs0150": [
       {
-        "title": "Cerebricks",
-        "category": "Collaborative networking site for skill enhancement",
-        "image": "cerebricks_logo.jpg",
-        "url": "http://www.cerebricks.com/"
+        "title": "PAC-MAN",
+        "category": "Built using JavaFX. Developed using ",
+        "image": "somephoto.png",
+        "video": "https://vimeo.com/308145098",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
+        "title": "Tetris",
+        "category": "Built using JavaFX as a class project",
+        "image": "somephoto.png",
+        "video": "https://vimeo.com/308145160",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Doodle Jump",
+        "category": "Built using JavaFX as a class project",
+        "image": "somephoto.png",
+        "video": "https://vimeo.com/308145060",
+        "url": "http://www.smirkspace.com"
+      }
+    ],
+    "cs0160": [
+      {
+        "title": "Seamcarve",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://vimeo.com/308145650",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Heap",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://vimeo.com/308145547",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Decision Tree",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://vimeo.com/308145253",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Graph",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://vimeo.com/308145373",
+        "url": "http://www.smirkspace.com"
+      }
+    ],
+    "cs0330": [
+      {
+        "title": "Maze",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Shell",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Malloc",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Database",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=HwzBk2hUaYI",
         "url": "http://www.smirkspace.com"
       }
     ]

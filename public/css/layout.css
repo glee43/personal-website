@@ -23,7 +23,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background: #0f0f0f;
+  background-image: linear-gradient(to right, black, gray);
 }
 
 /* ------------------------------------------------------------------ */
@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  /* background: #ffffff url(../images/header-background.jpg) no-repeat top center; */
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -55,7 +55,7 @@ header .banner {
   margin: 0 auto;
   width: 85%;
   padding-bottom: 30px;
-  stext-align: center;
+  text-align: center;
 }
 
 header .banner-text {
@@ -460,22 +460,34 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 30px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #666969;
 }
-
+#portfolio h2 {
+  font: 25px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  text-decoration: underline;
+  color: #262b2b;
+}
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: #fff;
+  background: #ebeeee;
+
   overflow: hidden;
   position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -487,7 +499,26 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
+/* video */
+.video-wrapper {
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+}
+.player-wrapper {
+  width: auto;
+  height: auto;
+  align-self: "center";
+}
+.react-player {
+  position: relative;
+  align-self: "center";
+}
 
+.react-player > div {
+  position: absolute;
+  align-self: "center";
+}
 /* overlay */
 .portfolio-item .item-wrap .overlay {
   position: absolute;
@@ -539,6 +570,7 @@ ul#nav li.current a {
 }
 .portfolio-item .portfolio-item-meta h5 {
   font: 14px/21px "opensans-bold", sans-serif;
+  align-self: "center";
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -872,8 +904,19 @@ call-to-action .button {
   cursor: default;
 }
 
+/* ------------------------------------------------------------------
+/* g. Life vids
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+
+#videos {
+  background: #962121;
+  padding-top: 96px;
+  padding-bottom: 102px;
+  color: #636363;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
