@@ -915,10 +915,27 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #videos {
-  background: #962121;
-  padding-top: 96px;
-  padding-bottom: 102px;
-  color: #636363;
+  background: #292929;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+#videos h1 {
+  font: 30px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #ffffff;
+}
+#videos h2 {
+  font: 25px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  text-decoration: underline;
+  color: #b8b0b0;
 }
 
 /* ------------------------------------------------------------------ */

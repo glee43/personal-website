@@ -112,84 +112,136 @@
     "cs0150": [
       {
         "title": "PAC-MAN",
-        "category": "Built using JavaFX. Developed using ",
+        "category": "Built from scratch using JavaFX. Created each components as distinct Java Classes and Interfaces. Had a graphical and logical 2D array for the graphics. Animated ghosts and score calculations with keyframs and timelines. Handled collisions with pellets, ghosts, energizers. Used breadth first search with the ghosts to have them chase PAC-MAN and added a random component so PAC-MAN isn't always being chased. PAC-MAN is controlled using arrow key inputs and event handlers.",
         "image": "somephoto.png",
         "video": "https://vimeo.com/308145098",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       },
       {
         "title": "Tetris",
-        "category": "Built using JavaFX as a class project",
+        "category": "Built from scratch using JavaFX. Randomly generates pieces. Pieces are controlled using arrow keys and the space bar for quick drop. The blocks are abstracted to handle most of the logics of collisions. Also used keyframes and timelines for animations.",
         "image": "somephoto.png",
         "video": "https://vimeo.com/308145160",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       },
       {
         "title": "Doodle Jump",
-        "category": "Built using JavaFX as a class project",
+        "category": "Built using JavaFX as a class project. Modeled the doodle falling by calculating the velocity and position of the doodle at each keyframe in the timeline. The black and green platforms trigger different velocity calculations. The doodles is controlled using keyboard inputs and event handlers.",
         "image": "somephoto.png",
         "video": "https://vimeo.com/308145060",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       }
     ],
     "cs0160": [
       {
         "title": "Seamcarve",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
+        "category": "A program that determines the importance of pixels in an image and calculates what seams can be removed using arrays to store the importance of each of the pixels and the direction of where the pixel came from starting at the bottom of the image. Built using Java.",
+        "image": "",
         "video": "https://vimeo.com/308145650",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Heap",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://vimeo.com/308145547",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       },
       {
         "title": "Decision Tree",
         "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
+        "image": "",
         "video": "https://vimeo.com/308145253",
-        "url": "http://www.smirkspace.com"
+        "url": ""
+      },
+      {
+        "title": "Heap",
+        "category": "Built using JavaFX as a class project",
+        "image": "",
+        "video": "https://vimeo.com/308145547",
+        "url": ""
       },
       {
         "title": "Graph",
         "category": "Built using JavaFX as a class project",
         "image": "robotics.jpg",
         "video": "https://vimeo.com/308145373",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       }
     ],
     "cs0330": [
-      {
-        "title": "Maze",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
-        "url": "http://www.smirkspace.com"
-      },
       {
         "title": "Shell",
         "category": "Built using JavaFX as a class project",
         "image": "robotics.jpg",
         "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Malloc",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
-        "url": "http://www.smirkspace.com"
+        "url": ""
       },
       {
         "title": "Database",
         "category": "Built using JavaFX as a class project",
         "image": "robotics.jpg",
         "video": "https://www.youtube.com/watch?v=HwzBk2hUaYI",
-        "url": "http://www.smirkspace.com"
+        "url": ""
+      },
+      {
+        "title": "Maze",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
+        "url": ""
+      },
+      {
+        "title": "Malloc",
+        "category": "Built using JavaFX as a class project",
+        "image": "robotics.jpg",
+        "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
+        "url": ""
+      }
+    ]
+  },
+  "videos": {
+    "I2018": [
+      {
+        "title": "January",
+        "video": "https://www.youtube.com/watch?v=m1GJIuZQ7bA"
+      },
+      {
+        "title": "February",
+        "video": "https://www.youtube.com/watch?v=CJRB5_f6aKc"
+      },
+      {
+        "title": "March",
+        "video": "https://www.youtube.com/watch?v=0VT0wdGMGkI"
+      },
+      {
+        "title": "April",
+        "video": "https://www.youtube.com/watch?v=0yo4xkT7k5c"
+      },
+      {
+        "title": "May",
+        "video": "https://www.youtube.com/watch?v=5rzjorG-kzw"
+      },
+      {
+        "title": "June",
+        "video": "https://www.youtube.com/watch?v=pe_zJq_7eKM"
+      },
+      {
+        "title": "July",
+        "video": "https://www.youtube.com/watch?v=a32dorefwAg"
+      },
+      {
+        "title": "August",
+        "video": "https://www.youtube.com/watch?v=l2dOKyQiE9A"
+      },
+      {
+        "title": "September",
+        "video": "https://www.youtube.com/watch?v=gf0ghpKskOk"
+      },
+      {
+        "title": "October",
+        "video": "https://www.youtube.com/watch?v=i-cesfJOxu4"
+      },
+      {
+        "title": "November",
+        "video": "https://www.youtube.com/watch?v=oWOQLn9XTFY"
+      },
+      {
+        "title": "December",
+        "video": ""
       }
     ]
   },
