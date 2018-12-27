@@ -33,30 +33,38 @@ class Videos extends Component {
     var projects = data.map(function(projects) {
       return (
         <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
+          <div
+            className="item-wrap"
+            style={{
+              color: "#666969",
+              background: "#292929"
+            }}
+          >
             <h5
               style={{
-                color: "#666969"
+                color: "#666969",
+                background: "#292929"
               }}
             >
               {projects.title}
             </h5>
 
-            <div
+            <ReactPlayer
               style={{
-                width: "100%"
+                display: "flex",
+
+                justifyContent: "center",
+                alignItems: "center",
+                background: "#292929"
               }}
-            >
-              <ReactPlayer
-                url={projects.video}
-                controls
-                playing={isPlaying}
-                loop
-                volume={0}
-                width="100%"
-                height="100%"
-              />
-            </div>
+              url={projects.video}
+              controls
+              playing={isPlaying}
+              loop
+              volume={0}
+              height="100%"
+              width="100%"
+            />
           </div>
         </div>
       );

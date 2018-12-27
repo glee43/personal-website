@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
+import "node_modules/video-react/dist/video-react.css"; // import css
 import { Carousel } from "react-responsive-carousel";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
+import "node_modules/video-react/dist/video-react.css"; // import css
 class Portfolio extends Component {
-  listProjects(data, margins) {
-    var projects = data.map(function(projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+  listProjects(data) {
+    var projects = data.map((projects, index) => {
       return (
         <div
           key={projects.title}
           style={{
-            flex: 1,
             display: "flex",
-            tableLayout: "flex",
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center"
@@ -26,11 +25,28 @@ class Portfolio extends Component {
             {projects.title}
           </h5>
 
-          <div style={{ marginLeft: -margins }}>
-            <ReactPlayer url={projects.video} playing loop controls />
-          </div>
-          <img src="" />
-          {/* <p style={{ paddingBottom: 20 }}>{projects.category}</p> */}
+          <ReactPlayer
+            style={{
+              display: "flex",
+              flexShrink: 1,
+              flexGrow: 1,
+              width: "100%",
+              height: "100%",
+              zIndex: 10000-index,
+              overFlow:"hidden",
+              justifyContent: "center",
+              background: "red"
+            }}
+            url={projects.video}
+            playing
+            loop
+            controls
+          />
+
+          <img src="" style={{ background: "yellow" }} />
+          <p style={{ paddingBottom: 20, paddingTop: 10 }}>
+            {projects.category}
+          </p>
         </div>
       );
     });
@@ -39,9 +55,9 @@ class Portfolio extends Component {
 
   render() {
     if (this.props.data) {
-      var projects = this.listProjects(this.props.data.cs0150, 75);
-      var projects2 = this.listProjects(this.props.data.cs0160, 70);
-      var projects3 = this.listProjects(this.props.data.cs0330, -10);
+      var projects = this.listProjects(this.props.data.cs0150);
+      var projects2 = this.listProjects(this.props.data.cs0160);
+      var projects3 = this.listProjects(this.props.data.cs0330);
     }
 
     var settings = {
