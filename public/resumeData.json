@@ -1,256 +1,256 @@
 {
-  "main": {
-    "name": "George Y Lee",
-    "occupation": "Sophomore at Brown University",
-    "description": "studying Computer Science and Computer Engineering.",
-    "image": "profilepic.jpg",
-    "bio": "George is an aspiring software and web developer studying Computer Science and Computer Engineering at Brown University. He has a deep passion for great food, video games, and of course, coding. George also loves traveling and has even been to South Africa for research on rhino dehorning",
-    "contactmessage": "Please contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
-    "email": "george_lee@brown.edu",
-    "phone": "949-887-5234",
-    "address": {
-      "street": "1 Montecito Dr",
-      "city": "Corona del Mar",
-      "state": "CA",
-      "zip": "92625"
+    "main": {
+        "name": "George Y Lee",
+        "occupation": "Sophomore at Brown University",
+        "description": "studying Computer Science and Computer Engineering.",
+        "image": "profilepic.jpg",
+        "bio": "George is an aspiring software and web developer studying Computer Science and Computer Engineering at Brown University. He has a deep passion for great food, video games, and of course, coding. George also loves traveling and has even been to South Africa for research on rhino dehorning",
+        "contactmessage": "Please contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
+        "email": "george_lee@brown.edu",
+        "phone": "949-887-5234",
+        "address": {
+            "street": "1 Montecito Dr",
+            "city": "Corona del Mar",
+            "state": "CA",
+            "zip": "92625"
+        },
+        "website": "http://georgeylee.me",
+        "resumedownload": "https://docs.google.com/document/d/1L883yVOYnRFDrcEhfEgGrWa8db05akzHKKxarmE-mDA/export?format=pdf",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/george-lee-71a356133/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "http://github.com/glee43",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/profile.php?id=100007865705201",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/georgelee114",
+                "className": "fa fa-instagram"
+            }
+        ]
     },
-    "website": "http://georgeylee.me",
-    "resumedownload": "https://docs.google.com/document/d/1L883yVOYnRFDrcEhfEgGrWa8db05akzHKKxarmE-mDA/export?format=pdf",
-    "social": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/george-lee-71a356133/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/glee43",
-        "className": "fa fa-github"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/profile.php?id=100007865705201",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/georgelee114",
-        "className": "fa fa-instagram"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "Brown University",
-        "degree": "Computer Science or Computer Engineering",
-        "graduated": "Expected May 2021",
-        "description": "Brown University's open curriculum allows me to deepen my passion for Computer Science and Engineering as well as explore topics in English, Math, Chemistry, and Entrepreneurship. I keep busy by working on a variety of personal projects, attending hackathons, working on a Formula One Racing Car, and exploring the East Coast."
-      },
-      {
-        "school": "Corona del Mar High School",
-        "degree": "Valedictorian",
-        "graduated": "June 2017",
-        "description": "Throughout high school, I took 13 AP courses and was a valedictorian in a class of over 500 students. I Co-Founded and was Vice President of my school's robotics club, sang as a baritone for the CDMHS Madrigals choir, and competed in Shot Put and Discus. Every month, I would volunteer at the Discovery Cube OC and teach young children the wonders of science and technology. I also conducted breast cancer research at the University of California, Irvine, and studied the effects of dehorning rhinos at Mankwe Reserve in South Africa."
-      }
-    ],
-    "work": [
-      {
-        "company": "Brown Robotics Lab",
-        "title": "Software Researcher",
-        "years": "October 2018 - Present",
-        "description": "Looking into semantic mapping for places identification with ROS."
-      },
-      {
-        "company": "Brown FSAE Formula Racing Club",
-        "title": "Steering Subsystem Lead",
-        "years": "Sept 2017 - Present",
-        "description": "Learned to  machine metal using mills and lathes. Created chain guard from scratch from designing the part on Solidworks to actual fabrication with a solid piece of stock. Leading steering subsystem."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Java",
-        "level": "80%"
-      },
-      {
-        "name": "Python",
-        "level": "75%"
-      },
-      {
-        "name": "Javascript",
-        "level": "75%"
-      },
-      {
-        "name": "C",
-        "level": "50%"
-      },
-      {
-        "name": "React",
-        "level": "80%"
-      },
-      {
-        "name": "HTML/CSS",
-        "level": "75%"
-      },
-      {
-        "name": "Adobe Illustrator",
-        "level": "65%"
-      },
-      {
-        "name": "Adobe XD",
-        "level": "75%"
-      },
-      {
-        "name": "Solidworks",
-        "level": "70%"
-      }
-    ]
-  },
-  "portfolio": {
-    "cs0150": [
-      {
-        "title": "PAC-MAN",
-        "category": "Built from scratch using JavaFX. Created each components as distinct Java Classes and Interfaces. Had a graphical and logical 2D array for the graphics. Animated ghosts and score calculations with keyframs and timelines. Handled collisions with pellets, ghosts, energizers. Used breadth first search with the ghosts to have them chase PAC-MAN and added a random component so PAC-MAN isn't always being chased. PAC-MAN is controlled using arrow key inputs and event handlers.",
-        "image": "somephoto.png",
-        "video": "https://vimeo.com/308145098",
-        "url": ""
-      },
-      {
-        "title": "Tetris",
-        "category": "Built from scratch using JavaFX. Randomly generates pieces. Pieces are controlled using arrow keys and the space bar for quick drop. The blocks are abstracted to handle most of the logics of collisions. Also used keyframes and timelines for animations.",
-        "image": "somephoto.png",
-        "video": "https://vimeo.com/308145160",
-        "url": ""
-      },
-      {
-        "title": "Doodle Jump",
-        "category": "Built using JavaFX as a class project. Modeled the doodle falling by calculating the velocity and position of the doodle at each keyframe in the timeline. The black and green platforms trigger different velocity calculations. The doodles is controlled using keyboard inputs and event handlers.",
-        "image": "somephoto.png",
-        "video": "https://vimeo.com/308145060",
-        "url": ""
-      }
-    ],
-    "cs0160": [
-      {
-        "title": "Seamcarve",
-        "category": "A program that determines the importance of pixels in an image and calculates what seams can be removed using arrays to store the importance of each of the pixels and the direction of where the pixel came from starting at the bottom of the image. Built using Java.",
-        "image": "",
-        "video": "https://vimeo.com/308145650",
-        "url": ""
-      },
-      {
-        "title": "Decision Tree",
-        "category": "Built using JavaFX as a class project",
-        "image": "",
-        "video": "https://vimeo.com/308145253",
-        "url": ""
-      },
-      {
-        "title": "Heap",
-        "category": "Built using JavaFX as a class project",
-        "image": "",
-        "video": "https://vimeo.com/308145547",
-        "url": ""
-      },
-      {
-        "title": "Graph",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://vimeo.com/308145373",
-        "url": ""
-      }
-    ],
-    "cs0330": [
-      {
-        "title": "Shell",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
-        "url": ""
-      },
-      {
-        "title": "Database",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=HwzBk2hUaYI",
-        "url": ""
-      },
-      {
-        "title": "Maze",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
-        "url": ""
-      },
-      {
-        "title": "Malloc",
-        "category": "Built using JavaFX as a class project",
-        "image": "robotics.jpg",
-        "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
-        "url": ""
-      }
-    ]
-  },
-  "videos": {
-    "I2018": [
-      {
-        "title": "January",
-        "video": "https://www.youtube.com/watch?v=m1GJIuZQ7bA"
-      },
-      {
-        "title": "February",
-        "video": "https://www.youtube.com/watch?v=CJRB5_f6aKc"
-      },
-      {
-        "title": "March",
-        "video": "https://www.youtube.com/watch?v=0VT0wdGMGkI"
-      },
-      {
-        "title": "April",
-        "video": "https://www.youtube.com/watch?v=0yo4xkT7k5c"
-      },
-      {
-        "title": "May",
-        "video": "https://www.youtube.com/watch?v=5rzjorG-kzw"
-      },
-      {
-        "title": "June",
-        "video": "https://www.youtube.com/watch?v=pe_zJq_7eKM"
-      },
-      {
-        "title": "July",
-        "video": "https://www.youtube.com/watch?v=a32dorefwAg"
-      },
-      {
-        "title": "August",
-        "video": "https://www.youtube.com/watch?v=l2dOKyQiE9A"
-      },
-      {
-        "title": "September",
-        "video": "https://www.youtube.com/watch?v=gf0ghpKskOk"
-      },
-      {
-        "title": "October",
-        "video": "https://www.youtube.com/watch?v=i-cesfJOxu4"
-      },
-      {
-        "title": "November",
-        "video": "https://www.youtube.com/watch?v=oWOQLn9XTFY"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [
+            {
+                "school": "Brown University",
+                "degree": "Computer Science or Computer Engineering",
+                "graduated": "Expected May 2021",
+                "description": "Brown University's open curriculum allows me to deepen my passion for Computer Science and Engineering as well as explore topics in English, Math, Chemistry, and Entrepreneurship. I keep busy by working on a variety of personal projects, attending hackathons, working on a Formula One Racing Car, and exploring the East Coast."
+            },
+            {
+                "school": "Corona del Mar High School",
+                "degree": "Valedictorian",
+                "graduated": "June 2017",
+                "description": "Throughout high school, I took 13 AP courses and was a valedictorian in a class of over 500 students. I Co-Founded and was Vice President of my school's robotics club, sang as a baritone for the CDMHS Madrigals choir, and competed in Shot Put and Discus. Every month, I would volunteer at the Discovery Cube OC and teach young children the wonders of science and technology. I also conducted breast cancer research at the University of California, Irvine, and studied the effects of dehorning rhinos at Mankwe Reserve in South Africa."
+            }
+        ],
+        "work": [
+            {
+                "company": "Brown Robotics Lab",
+                "title": "Software Researcher",
+                "years": "October 2018 - Present",
+                "description": "Looking into semantic mapping for places identification with ROS."
+            },
+            {
+                "company": "Brown FSAE Formula Racing Club",
+                "title": "Steering Subsystem Lead",
+                "years": "Sept 2017 - Present",
+                "description": "Learned to  machine metal using mills and lathes. Created chain guard from scratch from designing the part on Solidworks to actual fabrication with a solid piece of stock. Leading steering subsystem."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Java",
+                "level": "80%"
+            },
+            {
+                "name": "Python",
+                "level": "75%"
+            },
+            {
+                "name": "Javascript",
+                "level": "75%"
+            },
+            {
+                "name": "C",
+                "level": "50%"
+            },
+            {
+                "name": "React",
+                "level": "80%"
+            },
+            {
+                "name": "HTML/CSS",
+                "level": "75%"
+            },
+            {
+                "name": "Adobe Illustrator",
+                "level": "65%"
+            },
+            {
+                "name": "Adobe XD",
+                "level": "75%"
+            },
+            {
+                "name": "Solidworks",
+                "level": "70%"
+            }
+        ]
+    },
+    "portfolio": {
+        "cs0150": [
+            {
+                "title": "PAC-MAN",
+                "category": "Built from scratch using JavaFX. Created each components as distinct Java Classes and Interfaces. Had a graphical and logical 2D array for the graphics. Animated ghosts and score calculations with keyframs and timelines. Handled collisions with pellets, ghosts, energizers. Used breadth first search with the ghosts to have them chase PAC-MAN and added a random component so PAC-MAN isn't always being chased. PAC-MAN is controlled using arrow key inputs and event handlers.",
+                "image": "somephoto.png",
+                "video": "https://vimeo.com/308145098",
+                "url": ""
+            },
+            {
+                "title": "Tetris",
+                "category": "Built from scratch using JavaFX. Randomly generates pieces. Pieces are controlled using arrow keys and the space bar for quick drop. The blocks are abstracted to handle most of the logics of collisions. Also used keyframes and timelines for animations.",
+                "image": "somephoto.png",
+                "video": "https://vimeo.com/308145160",
+                "url": ""
+            },
+            {
+                "title": "Doodle Jump",
+                "category": "Built using JavaFX as a class project. Modeled the doodle falling by calculating the velocity and position of the doodle at each keyframe in the timeline. The black and green platforms trigger different velocity calculations. The doodles is controlled using keyboard inputs and event handlers.",
+                "image": "somephoto.png",
+                "video": "https://vimeo.com/308145060",
+                "url": ""
+            }
+        ],
+        "cs0160": [
+            {
+                "title": "Seamcarve",
+                "category": "A program that determines the importance of pixels in an image and calculates what seams can be removed using arrays to store the importance of each of the pixels and the direction of where the pixel came from starting at the bottom of the image. Built using Java.",
+                "image": "",
+                "video": "https://vimeo.com/308145650",
+                "url": ""
+            },
+            {
+                "title": "Decision Tree",
+                "category": "Implemented the ID3 algorithm recursively to generate a decision tree based on entropy, information gain, and the remainder. Also implemented in Java",
+                "image": "",
+                "video": "https://vimeo.com/308145253",
+                "url": ""
+            },
+            {
+                "title": "Heap",
+                "category": "Created a linked list-based binary tree to as a heap-based priority queue. Used JUnit testing to ensure full functionality of the heap. Build in Java.",
+                "image": "",
+                "video": "https://vimeo.com/308145547",
+                "url": ""
+            },
+            {
+                "title": "Graph",
+                "category": "Built a graph using an adjacency-matrix and an edge-set by decorating verticies with connections. Also implemented Kruskal’s algorithm and the Prim-Jarnik algorithm to generate a minimum spanning forest. Implemented in Java.",
+                "image": "robotics.jpg",
+                "video": "https://vimeo.com/308145373",
+                "url": ""
+            }
+        ],
+        "cs0330": [
+            {
+                "title": "Shell",
+                "category": "Created a basic shell with a REPL to take in user commands, parse the command, interpret the command, and act upon the command. Capable of accomplish simple commands such as cd, rm, ln, etc. Also able to do file redirection through creating, opening, and closing files. Have the ability to run background and foreground processes and switch between background and foreground. Can maintain jobs, reap completed jobs, and masks signals such as CTRL-C from the parent process so the shell will not terminate unless the user specifies it terminates with the exit command or CTRL-D. Built in C.",
+                "image": "robotics.jpg",
+                "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+                "url": ""
+            },
+            {
+                "title": "Database",
+                "category": "Using networking and multiple threads, created a server capable of connecting with multiple clients through a tcp socket connection. The server creates multiple threads to handle the clients and ensure everything is thread safe with mutexes. Also masked signals to terminate all processes with CTRL-C instead of exiting the REPL. The database is represented as a binary search tree and I also implemented fine-grained locking to ensure thread safety. Implemented in C.",
+                "image": "robotics.jpg",
+                "video": "https://www.youtube.com/watch?v=HwzBk2hUaYI",
+                "url": ""
+            },
+            {
+                "title": "Maze",
+                "category": "Used the drunken walk algorithm to generate a random maze given the size of the maze from the client and writes the results as a hexadecimal number to a text file. Then the solver program uses a depth first search algorithm to solve the generated maze. Implemented in C.",
+                "image": "robotics.jpg",
+                "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
+                "url": ""
+            },
+            {
+                "title": "Malloc",
+                "category": "Created a dynamic storage allocator by allocating memory from the system or taking space from previously allocated but is now freed blocks of memory. Maintains an \"explicit free list\" that tracks when a previously allocated piece of memory has been freed and coaleses with nearby freed blocks when a piece of memory has been freed to maximize efficiency. Created in C.",
+                "image": "robotics.jpg",
+                "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
+                "url": ""
+            }
+        ]
+    },
+    "videos": {
+        "I2018": [
+            {
+                "title": "January",
+                "video": "https://www.youtube.com/watch?v=m1GJIuZQ7bA"
+            },
+            {
+                "title": "February",
+                "video": "https://www.youtube.com/watch?v=CJRB5_f6aKc"
+            },
+            {
+                "title": "March",
+                "video": "https://www.youtube.com/watch?v=0VT0wdGMGkI"
+            },
+            {
+                "title": "April",
+                "video": "https://www.youtube.com/watch?v=0yo4xkT7k5c"
+            },
+            {
+                "title": "May",
+                "video": "https://www.youtube.com/watch?v=5rzjorG-kzw"
+            },
+            {
+                "title": "June",
+                "video": "https://www.youtube.com/watch?v=pe_zJq_7eKM"
+            },
+            {
+                "title": "July",
+                "video": "https://www.youtube.com/watch?v=a32dorefwAg"
+            },
+            {
+                "title": "August",
+                "video": "https://www.youtube.com/watch?v=l2dOKyQiE9A"
+            },
+            {
+                "title": "September",
+                "video": "https://www.youtube.com/watch?v=gf0ghpKskOk"
+            },
+            {
+                "title": "October",
+                "video": "https://www.youtube.com/watch?v=i-cesfJOxu4"
+            },
+            {
+                "title": "November",
+                "video": "https://www.youtube.com/watch?v=oWOQLn9XTFY"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
 }

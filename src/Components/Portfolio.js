@@ -1,109 +1,117 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-import "node_modules/video-react/dist/video-react.css"; // import css
 import { Carousel } from "react-responsive-carousel";
+import { Player } from "video-react";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
-import "node_modules/video-react/dist/video-react.css"; // import css
+
 class Portfolio extends Component {
-  listProjects(data) {
-    var projects = data.map((projects, index) => {
-      return (
-        <div
-          key={projects.title}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center"
-          }}
-        >
-          <h5
-            style={{
-              color: "#666969"
-            }}
-          >
-            {projects.title}
-          </h5>
-
-          <ReactPlayer
-            style={{
-              display: "flex",
-              flexShrink: 1,
-              flexGrow: 1,
-              width: "100%",
-              height: "100%",
-              zIndex: 10000-index,
-              overFlow:"hidden",
-              justifyContent: "center",
-              background: "red"
-            }}
-            url={projects.video}
-            playing
-            loop
-            controls
-          />
-
-          <img src="" style={{ background: "yellow" }} />
-          <p style={{ paddingBottom: 20, paddingTop: 10 }}>
-            {projects.category}
-          </p>
-        </div>
-      );
-    });
-    return projects;
-  }
-
-  render() {
-    if (this.props.data) {
-      var projects = this.listProjects(this.props.data.cs0150);
-      var projects2 = this.listProjects(this.props.data.cs0160);
-      var projects3 = this.listProjects(this.props.data.cs0330);
+    listProjects(data) {
+        var projects = data.map((projects, index) => {
+            return (
+                <div>
+                    <h5
+                        style={{
+                            color: "#666969",
+                            position: "relative"
+                        }}
+                    >
+                        {projects.title}
+                    </h5>
+                    <div className="player-wrapper">
+                        <ReactPlayer
+                            style={{
+                                display: "flex",
+                                width: "100%",
+                                height: "100%",
+                                justifyContent: "center"
+                            }}
+                            className="react-player"
+                            url={projects.video}
+                            playing
+                            loop
+                            controls
+                            width="100%"
+                            height="100%"
+                        />
+                    </div>
+                    <p style={{ paddingBottom: 20, paddingTop: 10 }}>
+                        {projects.category}
+                    </p>
+                </div>
+            );
+        });
+        return projects;
     }
 
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+    render() {
+        if (this.props.data) {
+            var projects = this.listProjects(this.props.data.cs0150);
+            var projects2 = this.listProjects(this.props.data.cs0160);
+            var projects3 = this.listProjects(this.props.data.cs0330);
+        }
 
-    return (
-      <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
-            <h2> CS0150 </h2>
-            <div>
-              <Carousel showIndicators swipable infiniteLoop showThumbs={false}>
-                {projects}
-              </Carousel>
-            </div>
-            <h2> CS0160 </h2>
-            <div>
-              <Carousel showIndicators swipable infiniteLoop showThumbs={false}>
-                {projects2}
-              </Carousel>
-            </div>
-            <h2> CS0330 </h2>
-            <div>
-              <Carousel showIndicators swipable infiniteLoop showThumbs={false}>
-                {projects3}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
+        var settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
+
+        return (
+            <section id="portfolio">
+                <div className="row">
+                    <div className="twelve columns collapsed">
+                        <h1>Check Out Some of My Works.</h1>
+                        <h2> CS0150 </h2>
+                        <div>
+                            <Carousel
+                                showIndicators
+                                swipable
+                                infiniteLoop
+                                showThumbs={false}
+                                style={{ overflow: "hidden", zIndex: 100000 }}
+                            >
+                                {projects}
+                            </Carousel>
+                        </div>
+                        <h2> CS0160 </h2>
+                        <div>
+                            <Carousel
+                                showIndicators
+                                swipable
+                                infiniteLoop
+                                showThumbs={false}
+                                style={{ overflow: "hidden" }}
+                            >
+                                {projects2}
+                            </Carousel>
+                        </div>
+                        <h2> CS0330 </h2>
+                        <div>
+                            <Carousel
+                                showIndicators
+                                swipable
+                                infiniteLoop
+                                showThumbs={false}
+                                style={{ overflow: "hidden" }}
+                            >
+                                {projects3}
+                            </Carousel>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        );
+    }
 }
 
 export default Portfolio;
 {
-  /* Overlay component */
+    /* Overlay component */
 }
 {
-  /* <img alt={projects.title} src={projectImage} />
+    /* <img alt={projects.title} src={projectImage} />
             <div className="overlay">
               <div className="portfolio-item-meta">
                 <h5>{projects.title}</h5>
@@ -118,7 +126,7 @@ export default Portfolio;
 
 /* old layout */
 {
-  /* <div
+    /* <div
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf"
             >
@@ -140,7 +148,7 @@ export default Portfolio;
             </div> */
 }
 {
-  /* <h2> Hackathon Projects </h2>
+    /* <h2> Hackathon Projects </h2>
             <div
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf"
