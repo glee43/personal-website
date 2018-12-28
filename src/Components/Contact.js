@@ -11,6 +11,7 @@ class Contact extends Component {
       var phone = this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var profilepic = "images/" + this.props.data.image;
     }
 
     return (
@@ -96,6 +97,11 @@ class Contact extends Component {
                 {email} <br />
                 <span>{phone}</span>
               </p>
+              <img
+                className="profile-pic"
+                src={profilepic}
+                alt="George Lee Profile Pic"
+              />
             </div>
           </aside>
         </div>
