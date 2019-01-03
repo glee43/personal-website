@@ -492,8 +492,7 @@ ul#nav li.current a {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-
-    
+    justify-content: center;
     color: #b8b0b0;
 }
 #portfolio a.title:hover {
