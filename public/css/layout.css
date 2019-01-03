@@ -486,6 +486,20 @@ ul#nav li.current a {
     color: #11abb0;
 }
 
+#portfolio a.title {
+    font: 25px/24px "opensans-semibold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+
+    
+    color: #b8b0b0;
+}
+#portfolio a.title:hover {
+    color: #11abb0;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns {
     margin-bottom: 36px;

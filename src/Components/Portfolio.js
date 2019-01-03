@@ -65,8 +65,14 @@ class Portfolio extends Component {
                             </Carousel>
                         </div>
                         <h2>
-                            {" "}
-                            CS0150: Introduction to Object-Oriented Programming{" "}
+                            <a
+                                className="title"
+                                href="http://cs.brown.edu/courses/csci0150/"
+                            >
+                                {" "}
+                                CS0150: Introduction to Object-Oriented
+                                Programming{" "}
+                            </a>
                         </h2>
                         <div>
                             <Carousel
@@ -80,9 +86,14 @@ class Portfolio extends Component {
                             </Carousel>
                         </div>
                         <h2>
-                            {" "}
-                            CS0160: Introduction to Data Structures and
-                            Algorithms{" "}
+                            <a
+                                className="title"
+                                href="http://cs.brown.edu/courses/cs016/"
+                            >
+                                {" "}
+                                CS0160: Introduction to Data Structures and
+                                Algorithms{" "}
+                            </a>
                         </h2>
                         <div>
                             <Carousel
@@ -95,7 +106,15 @@ class Portfolio extends Component {
                                 {projects2}
                             </Carousel>
                         </div>
-                        <h2> CS0330: Introduction to Computer Systems </h2>
+                        <h2>
+                            <a
+                                className="title"
+                                href="http://cs.brown.edu/courses/cs033/"
+                            >
+                                {" "}
+                                CS0330: Introduction to Computer Systems{" "}
+                            </a>
+                        </h2>
                         <div>
                             <Carousel
                                 showIndicators
