@@ -1,10 +1,10 @@
 {
     "main": {
         "name": "George Y Lee",
-        "occupation": "Sophomore at Brown University",
-        "description": "studying Computer Science and Computer Engineering.",
+        "occupation": "Junior ",
+        "description": "Pursuing a Bachelor of Science in Computer Science at Brown University.",
         "image": "profilepic.jpg",
-        "bio": "George is an aspiring software and web developer studying Computer Science and Computer Engineering at Brown University. He has a deep passion for great food, video games, and of course, coding. George also loves traveling and has even been to South Africa for research on rhino dehorning",
+        "bio": "George is an aspiring software developer studying Computer Science at Brown University. In addition to his studies, he is an Undergraduate TA for CS33 (Intro to Computer Systems), a Peer Career Advisor for Brown's CareerLAB, a Brown Design Workshop Monitor, and the Dev Lead for Hack@Brown. He has a deep passion for cooking, video games, and traveling. He has even been to South Africa in order to research rhino dehorning",
         "contactmessage": "Please contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
         "email": "george_lee@brown.edu",
         "phone": "949-887-5234",
@@ -112,7 +112,7 @@
         "hackathons": [
             {
                 "title": "cerebricks | YHack 2017 WINNER: Intuit College Student Prosperity",
-                "category": "cerebricks is a job recruitment site specifically oriented for college students. We allow applicants to apply as a team so they can tackle any projects in a collaborative manner. There are also educational resources on the site to help enhance students' skills and abilities. Wages can be increased from completion of projects and education as well as decreased from poor performance or failure to complete projects. This was built with React and Material UI.",
+                "category": "Cerebricks is a job recruitment site specifically oriented for college students. We allow applicants to apply as a team so they can tackle any projects in a collaborative manner. There are also educational resources on the site to help enhance students' skills and abilities. Wages can be increased from completion of projects and education as well as decreased from poor performance or failure to complete projects. This was built with React and Material UI.",
                 "image": "",
                 "video": "https://vimeo.com/308917911",
                 "url": "https://devpost.com/software/cerebricks"
