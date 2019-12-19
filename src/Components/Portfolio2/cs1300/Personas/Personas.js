@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Personas.css";
+import { Colors } from "../Colors";
 
 class Personas extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class Personas extends Component {
                     <div className="PersonasImageContainer"></div>
                     <h1
                         className="center ProjectTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Personas and Storyboarding for Nintendo Switch Joy Cons
                     </h1>
@@ -27,14 +28,14 @@ class Personas extends Component {
                 <div className="ProjectContent">
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white", marginTop: "10px" }}
+                        style={{ color: Colors.white, marginTop: "10px" }}
                     >
                         Partners
                     </h3>
                     <p>Alex Homer, Rudra Srivastava</p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Background
                     </h3>
@@ -52,7 +53,7 @@ class Personas extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Design Considerations
                     </h3>
@@ -67,7 +68,10 @@ class Personas extends Component {
                     </p>
                     <div className="center IterativeDesignPrototypeImagesContainer">
                         <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
+                            <div
+                                style={{ width: "75%" }}
+                                className="IterativeDesignPrototypeImageContainer"
+                            >
                                 <img
                                     className="IterativeDesignPrototypeImage"
                                     src={require("./PersonasGraphs.png")}
@@ -113,7 +117,10 @@ class Personas extends Component {
                     </p>
                     <div className="center IterativeDesignPrototypeImagesContainer">
                         <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
+                            <div
+                                className="IterativeDesignPrototypeImageContainer"
+                                style={{ width: "100%" }}
+                            >
                                 <img
                                     className="IterativeDesignPrototypeImage"
                                     src={
@@ -126,7 +133,7 @@ class Personas extends Component {
                     </div>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Conclusions
                     </h3>
@@ -140,7 +147,7 @@ class Personas extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Links
                     </h3>

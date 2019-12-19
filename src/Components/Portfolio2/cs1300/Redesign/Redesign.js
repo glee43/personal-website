@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Redesign.css";
+import { Colors } from "../Colors";
 
 class Redesign extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class Redesign extends Component {
                     <div className="RedesignImageContainer"></div>
                     <h1
                         className="center ProjectTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Craigslist Redesign
                     </h1>
@@ -27,14 +28,14 @@ class Redesign extends Component {
                 <div className="ProjectContent">
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white", marginTop: "10px" }}
+                        style={{ color: Colors.white, marginTop: "10px" }}
                     >
                         Partner
                     </h3>
                     <p>Naomi Lee</p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Background
                     </h3>
@@ -49,7 +50,7 @@ class Redesign extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Design Considerations
                     </h3>
@@ -68,7 +69,10 @@ class Redesign extends Component {
                     </p>
                     <div className="center IterativeDesignPrototypeImagesContainer">
                         <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
+                            <div
+                                className="IterativeDesignPrototypeImageContainer"
+                                style={{ width: "75%" }}
+                            >
                                 <img
                                     className="IterativeDesignPrototypeImage"
                                     src="https://lh5.googleusercontent.com/i3N6nCeI-W8eA1ofII-OK_09c0TvaJkrPSmJg87lQvzNhKKLMlRIhvEN30mylOxezCi_qucUUZhYiT95hiYC7C38mp9xUIZMzi2JCsbmUWreZN0WuV-XSFMMZ_kUePwA5aSGUMpg"
@@ -86,16 +90,17 @@ class Redesign extends Component {
                         responsive to a variety of devices. This can be seen in
                         the image below.
                     </p>
-                    <div className="center IterativeDesignPrototypeImagesContainer">
-                        <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
-                                <img
-                                    className="IterativeDesignPrototypeImage"
-                                    src="https://lh6.googleusercontent.com/E1maFRfbOiIOiYEEvKxilhbsZnMgI10WL8Hd7T6rlyXFBoog3PV_ra7kzcQy_zm_KfmaHNRHjp6c2dDoxhx3Ro8xNH_3OnWSoULvFy-z"
-                                />
-                            </div>
-                            <p>Figure 2: Single Page redesign on Figma</p>
+                    <div className="center IterativeDesignPrototypeImageWithCaption">
+                        <div
+                            className="IterativeDesignPrototypeImageContainer"
+                            style={{ width: "75%" }}
+                        >
+                            <img
+                                className="IterativeDesignPrototypeImage"
+                                src="https://lh6.googleusercontent.com/E1maFRfbOiIOiYEEvKxilhbsZnMgI10WL8Hd7T6rlyXFBoog3PV_ra7kzcQy_zm_KfmaHNRHjp6c2dDoxhx3Ro8xNH_3OnWSoULvFy-z"
+                            />
                         </div>
+                        <p>Figure 2: Single Page redesign on Figma</p>
                     </div>
                     <p>
                         We also create a single React App which is responsive in
@@ -104,7 +109,7 @@ class Redesign extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Conclusions
                     </h3>
@@ -119,7 +124,7 @@ class Redesign extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Links
                     </h3>

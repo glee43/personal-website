@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./IterativeDesign.css";
+import { Colors } from "../Colors";
 
 class IterativeDesign extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class IterativeDesign extends Component {
                     <div className="IterativeDesignImageContainer"></div>
                     <h1
                         className="center ProjectTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Iterative Design of Listle
                     </h1>
@@ -27,14 +28,14 @@ class IterativeDesign extends Component {
                 <div className="ProjectContent">
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white", marginTop: "10px" }}
+                        style={{ color: Colors.white, marginTop: "10px" }}
                     >
                         Partners
                     </h3>
                     <p>Kyle Qian, Ryan Choi, Claire Lin</p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Background
                     </h3>
@@ -55,7 +56,7 @@ class IterativeDesign extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Design Considerations
                     </h3>
@@ -135,7 +136,7 @@ class IterativeDesign extends Component {
 
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Conclusions
                     </h3>
@@ -149,7 +150,7 @@ class IterativeDesign extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Links
                     </h3>

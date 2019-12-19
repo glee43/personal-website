@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Development.css";
 import "../../../Portfolio2/Portfolio.css";
-
+import { Colors } from "../Colors";
 class Development extends Component {
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ class Development extends Component {
                     <div className="DevelopmentImageContainer"></div>
                     <h1
                         className="center ProjectTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Designing a Super Smash Melee Character Filter
                     </h1>
@@ -28,14 +28,14 @@ class Development extends Component {
                 <div className="ProjectContent">
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white", marginTop: "10px" }}
+                        style={{ color: Colors.white, marginTop: "10px" }}
                     >
                         Partner
                     </h3>
                     <p>Naomi Lee</p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Background
                     </h3>
@@ -51,20 +51,21 @@ class Development extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Design Considerations
                     </h3>
-                    <div className="center IterativeDesignPrototypeImagesContainer">
-                        <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
-                                <img
-                                    className="IterativeDesignPrototypeImage"
-                                    src={require("../../../../images/SmashMeleeFilter.png")}
-                                />
-                            </div>
-                            <p>Figure 1: Smash Filter Screenshot</p>
+                    <div className="center IterativeDesignPrototypeImageWithCaption">
+                        <div
+                            className="IterativeDesignPrototypeImageContainer"
+                            style={{ width: "50%" }}
+                        >
+                            <img
+                                className="IterativeDesignPrototypeImage"
+                                src={require("../../../../images/SmashMeleeFilter.png")}
+                            />
                         </div>
+                        <p>Figure 1: Smash Filter Screenshot</p>
                     </div>
                     <p>
                         There were several design considerations when we were
@@ -79,7 +80,7 @@ class Development extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Conclusions
                     </h3>
@@ -91,7 +92,7 @@ class Development extends Component {
                     </p>
                     <h3
                         className="ProjectSectionTitle"
-                        style={{ color: "white" }}
+                        style={{ color: Colors.white }}
                     >
                         Links
                     </h3>

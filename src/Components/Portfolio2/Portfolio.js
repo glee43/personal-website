@@ -15,10 +15,10 @@ class Portfolio extends Component {
         super();
 
         this.state = {
-            modalIsOpen: false,
+            modalIsOpen: true,
             autoPlayCarousel: false,
-            mainKey: -1,
-            secondKey: -1
+            mainKey: 0,
+            secondKey: 3
         };
 
         this.openModal = this.openModal.bind(this);
@@ -215,23 +215,11 @@ export default Portfolio;
 
 const customStyles = {
     content: {
-        // top: "50%",
-        // left: "50%",
-        // right: "auto",
-        // bottom: "auto",
-        // marginRight: "-50%",
-        // transform: "translate(-50%, -50%)",
-        // display: "flex",
-        // justifyContent: "center",
-        // alignItems: "center",
-        // flexDirection: "column",
-        // color: "transparent",
-        // WebkitOverflowScrolling: "touch"
         position: "absolute",
-        top: "50px",
-        left: "50px",
-        right: "50px",
-        bottom: "50px",
+        top: "30px",
+        left: "30px",
+        right: "30px",
+        bottom: "30px",
         backgroundColor: "black",
         overflow: "auto",
         transition: "opacity 2000ms ease-in-out"
