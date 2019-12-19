@@ -230,28 +230,28 @@
             {
                 "title": "Smash Melee Filter",
                 "category": "",
-                "image": "SmashMeleeFilter.png",
+                "image": "MeleeIcon.png",
                 "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             },
             {
                 "title": "Craiglist Redesign",
                 "category": "",
-                "image": "",
+                "image": "Craiglist.jpg",
                 "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             },
             {
-                "title": "Redesign: Craig List",
+                "title": "Iterative Design for Listle",
                 "category": "",
-                "image": "",
+                "image": "Listle.png",
                 "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             },
             {
-                "title": "Redesign: Craig List",
+                "title": "Personas and Story-boarding for Switch Joy Cons ",
                 "category": "",
-                "image": "",
+                "image": "Switch.png",
                 "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             }

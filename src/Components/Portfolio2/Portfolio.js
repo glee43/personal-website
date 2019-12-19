@@ -16,7 +16,7 @@ class Portfolio extends Component {
 
         this.state = {
             modalIsOpen: true,
-            modalContent: <Development closeModal={this.closeModal} />,
+            modalContent: <IterativeDesign closeModal={this.closeModal} />,
             // modalContent: (
             //     <div className="center">
             //         <h1>Still Under Construction!</h1>

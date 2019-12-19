@@ -37,7 +37,7 @@ class Development extends Component {
                         className="ProjectSectionTitle"
                         style={{ color: "white" }}
                     >
-                        Context
+                        Background
                     </h3>
                     <p>
                         Ever wanted to sort the original 15 Smash Melee
