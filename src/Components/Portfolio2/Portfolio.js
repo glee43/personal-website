@@ -17,8 +17,8 @@ class Portfolio extends Component {
         this.state = {
             modalIsOpen: false,
             autoPlayCarousel: false,
-            mainKey: 0,
-            secondKey: 3
+            mainKey: -1,
+            secondKey: -1
         };
 
         this.openModal = this.openModal.bind(this);
@@ -74,6 +74,7 @@ class Portfolio extends Component {
         });
         return projects;
     }
+
     getModalContent = projects => {
         let defaultContent = (
             <div className="center" style={{ height: "100%" }}>
@@ -93,6 +94,7 @@ class Portfolio extends Component {
         }
         return defaultContent;
     };
+
     render() {
         if (this.props.data) {
             var cs1300 = this.listProjects({

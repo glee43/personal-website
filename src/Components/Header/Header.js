@@ -79,11 +79,11 @@ class Header extends Component {
                                     Works
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a className="smoothscroll" href="#videos">
                                     Videos
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a className="smoothscroll" href="#contact">
                                     Contact

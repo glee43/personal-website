@@ -1,0 +1,43 @@
+.PersonasImageContainer {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+.PersonasImageContainer:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+    background-image: url("https://nintendowire.com/wp-content/uploads/2017/12/Banner-NintendoSwitch-Metroid-1000x563.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.IterativeDesignPrototypeImageWithCaption {
+    flex-direction: column;
+}
+.IterativeDesignPrototypeImagesContainer {
+    flex-wrap: wrap;
+    position: relative;
+}
+.IterativeDesignPrototypeImageContainer {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+    background-color: white;
+}
+.IterativeDesignPrototypeImage {
+    object-fit: contain;
+}

@@ -55,6 +55,17 @@ class Development extends Component {
                     >
                         Design Considerations
                     </h3>
+                    <div className="center IterativeDesignPrototypeImagesContainer">
+                        <div className="center IterativeDesignPrototypeImageWithCaption">
+                            <div className="IterativeDesignPrototypeImageContainer">
+                                <img
+                                    className="IterativeDesignPrototypeImage"
+                                    src={require("../../../../images/SmashMeleeFilter.png")}
+                                />
+                            </div>
+                            <p>Figure 1: Smash Filter Screenshot</p>
+                        </div>
+                    </div>
                     <p>
                         There were several design considerations when we were
                         creating the website. The choice of fonts and layout was
