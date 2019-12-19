@@ -15,10 +15,10 @@ class Portfolio extends Component {
         super();
 
         this.state = {
-            modalIsOpen: true,
+            modalIsOpen: false,
             autoPlayCarousel: false,
-            mainKey: 0,
-            secondKey: 3
+            mainKey: -1,
+            secondKey: -1
         };
 
         this.openModal = this.openModal.bind(this);

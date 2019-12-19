@@ -91,10 +91,7 @@ class Redesign extends Component {
                         the image below.
                     </p>
                     <div className="center IterativeDesignPrototypeImageWithCaption">
-                        <div
-                            className="IterativeDesignPrototypeImageContainer"
-                            style={{ width: "75%" }}
-                        >
+                        <div className="IterativeDesignPrototypeImageContainer">
                             <img
                                 className="IterativeDesignPrototypeImage"
                                 src="https://lh6.googleusercontent.com/E1maFRfbOiIOiYEEvKxilhbsZnMgI10WL8Hd7T6rlyXFBoog3PV_ra7kzcQy_zm_KfmaHNRHjp6c2dDoxhx3Ro8xNH_3OnWSoULvFy-z"

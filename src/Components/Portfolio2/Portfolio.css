@@ -97,3 +97,23 @@
     width: 50px;
     text-align: center;
 }
+
+.IterativeDesignPrototypeImageWithCaption {
+    flex-direction: column;
+}
+.IterativeDesignPrototypeImagesContainer {
+    flex-wrap: wrap;
+    position: relative;
+}
+.IterativeDesignPrototypeImageContainer .center {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.IterativeDesignPrototypeImage {
+    object-fit: cover;
+}

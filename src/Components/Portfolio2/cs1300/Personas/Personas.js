@@ -89,7 +89,13 @@ class Personas extends Component {
                     </p>
                     <div className="center IterativeDesignPrototypeImagesContainer">
                         <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
+                            <div
+                                className="IterativeDesignPrototypeImageContainer"
+                                style={{
+                                    backgroundColor: "white",
+                                    margin: "10px"
+                                }}
+                            >
                                 <img
                                     className="IterativeDesignPrototypeImage"
                                     src={
@@ -100,7 +106,13 @@ class Personas extends Component {
                             <p>Figure 2: Novice Empathy Map</p>
                         </div>
                         <div className="center IterativeDesignPrototypeImageWithCaption">
-                            <div className="IterativeDesignPrototypeImageContainer">
+                            <div
+                                className="IterativeDesignPrototypeImageContainer"
+                                style={{
+                                    backgroundColor: "white",
+                                    margin: "10px"
+                                }}
+                            >
                                 <img
                                     className="IterativeDesignPrototypeImage"
                                     src={

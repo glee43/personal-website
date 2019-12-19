@@ -22,22 +22,3 @@
     -webkit-background-size: cover;
     background-size: cover;
 }
-.IterativeDesignPrototypeImageWithCaption {
-    flex-direction: column;
-}
-.IterativeDesignPrototypeImagesContainer {
-    flex-wrap: wrap;
-    position: relative;
-}
-.IterativeDesignPrototypeImageContainer {
-    width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
-    height: auto;
-    object-fit: contain;
-    overflow: hidden;
-    background-color: white;
-}
-.IterativeDesignPrototypeImage {
-    object-fit: contain;
-}
