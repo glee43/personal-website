@@ -4,7 +4,7 @@
         "occupation": "Junior ",
         "description": "Pursuing a Bachelor of Science in Computer Science at Brown University.",
         "image": "profilepic.jpg",
-        "bio": "George is an aspiring software developer studying Computer Science at Brown University. In addition to his studies, he is an Undergraduate TA for CS33 (Intro to Computer Systems), a Peer Career Advisor for Brown's CareerLAB, a Brown Design Workshop Monitor, and the Dev Lead for Hack@Brown. He has a deep passion for cooking, video games, and traveling. He has even been to South Africa in order to research rhino dehorning",
+        "bio": "I am an aspiring software engineer studying Computer Science at Brown University with a focus on Visual Computing, Front-End Engineering, and Deep Learning/Machine Learning. In addition to my studies, I am a Head TA for CS1430 (Intro to Computer Vision), a Peer Career Advisor for Brown's CareerLAB, a Brown Design Workshop Monitor, and the Dev Lead for Hack@Brown. I have a deep passion for cooking and have cooked everything from Beef Wellington to a 14lb Turkey in a dorm kitchen. I also love traveling, having visited various startups in London as a part of Brown Synapse, sang in a choir in Notre Dame, Paris, and researched rhino dehorning in South Africa!",
         "contactmessage": "Please contact me if you're interested in hiring me, meeting me, or just chatting with me. I love meeting new people!",
         "email": "george_lee@brown.edu",
         "phone": "949-887-5234",
@@ -111,60 +111,57 @@
     "portfolio": {
         "hackathons": [
             {
-                "title": "cerebricks | YHack 2017 WINNER: Intuit College Student Prosperity",
+                "title": "cerebricks",
+                "place": "YHack 2017 WINNER: Intuit College Student Prosperity",
                 "category": "Cerebricks is a job recruitment site specifically oriented for college students. We allow applicants to apply as a team so they can tackle any projects in a collaborative manner. There are also educational resources on the site to help enhance students' skills and abilities. Wages can be increased from completion of projects and education as well as decreased from poor performance or failure to complete projects. This was built with React and Material UI.",
-                "image": "",
+                "image": "Cerebricks.jpg",
                 "video": "https://vimeo.com/308917911",
                 "url": "https://devpost.com/software/cerebricks"
             },
             {
-                "title": "BrownByte | Hack@Brown 2018",
+                "title": "BrownByte",
+                "place": "Hack@Brown 2018",
                 "category": "BrownByte aims to make delivery integrated with Brown University's dining services. Live in Pembroke and need a late night spicy with? Just make an order from Jos and have your peers deliver it to you. We also tried integrating block-chain by creating our own cryptocurrency, BrownByte. Built using React Native, Node.js, Expo.io, Redux, and Steller.",
-                "image": "",
+                "image": "BrownByte.png",
                 "video": "https://vimeo.com/309064372",
                 "url": "https://devpost.com/software/brownbyte"
             },
             {
-                "title": "GoodSam | Brown HackHealth 2018 WINNER: Best Tech",
+                "title": "GoodSam",
+                "place": "Brown HackHealth 2018 WINNER: Best Tech",
                 "category": "GoodSam is an emergency response platform aimed to leverge our local communities as the first responders to any crisis. It consists of seperate apps for the user (the patients) and the GoodSams (Good Samaritans), and a website for EMS dispatch. If a user was in an accident, he/she could alert EMS dispatch of his/her troubles through the app. The EMS dispatch could then evaluate the situation through an online portal, and then alert a local GoodSam to have him/her help out at the scene. The layout was prototyped with AdobeXD. The dispatch website was build with Vue.js, the user and GoodSam apps were started with React Native, and the data used by the apps and website was stored with Firebase Realtime Database. We also used FHIR for maintaining health records of our users and GoodSams.",
                 "image": "GoodSam.png",
                 "video": "https://www.youtube.com/watch?v=z7GbL55sTrE",
                 "url": "https://docs.google.com/presentation/d/1oCAwM1FzwXneuGARXNOTqeq8R9Z0ILnzmChzB8mskSc/edit?usp=sharing"
             },
             {
-                "title": "Mu (Meet up) | HackHarvard 2018",
+                "title": "Mu (Meet up)",
+                "place": "HackHarvard 2018",
                 "category": "Mu is a decision making platform aimed to help people decided where they want to meet. People can join a room, choose where they want to be on a map, and then indicate how far they are willing to go. It was built with React Native, Firebase Realtime Database, and the Google Maps API.",
-                "image": "",
+                "image": "MU.png",
                 "video": "https://vimeo.com/308918064",
                 "url": "https://devpost.com/software/mu-meetup"
-            },
-            {
-                "title": "My Personal Site",
-                "category": "Built with React and deployed with Netlify",
-                "image": "",
-                "video": "https://vimeo.com/309225839",
-                "url": "https://www.georgeylee.me/"
             }
         ],
         "cs0150": [
             {
                 "title": "PAC-MAN",
                 "category": "Built from scratch using JavaFX. Created each components as distinct Java Classes and Interfaces. Had a graphical and logical 2D array for the graphics. Animated ghosts and score calculations with keyframs and timelines. Handled collisions with pellets, ghosts, energizers. Used breadth first search with the ghosts to have them chase PAC-MAN and added a random component so PAC-MAN isn't always being chased. PAC-MAN is controlled using arrow key inputs and event handlers.",
-                "image": "somephoto.png",
+                "image": "pacman.jpg",
                 "video": "https://vimeo.com/308145098",
                 "url": "https://cs.brown.edu/courses/cs015/docs/assign/Pacman_Handout_2018.pdf"
             },
             {
                 "title": "Tetris",
                 "category": "Built from scratch using JavaFX. Randomly generates pieces. Pieces are controlled using arrow keys and the space bar for quick drop. The blocks are abstracted to handle most of the logics of collisions. Also used keyframes and timelines for animations.",
-                "image": "somephoto.png",
+                "image": "Tetris.png",
                 "video": "https://vimeo.com/308145160",
                 "url": "https://cs.brown.edu/courses/cs015/docs/assign/Tetris_Handout_2018.pdf"
             },
             {
                 "title": "Doodle Jump",
                 "category": "Built using JavaFX as a class project. Modeled the doodle falling by calculating the velocity and position of the doodle at each keyframe in the timeline. The black and green platforms trigger different velocity calculations. The doodles is controlled using keyboard inputs and event handlers.",
-                "image": "somephoto.png",
+                "image": "DoodleJump.png",
                 "video": "https://vimeo.com/308145060",
                 "url": "https://cs.brown.edu/courses/cs015/docs/assign/DoodleJump_Handout_2018.pdf"
             }
@@ -173,14 +170,14 @@
             {
                 "title": "Seamcarve",
                 "category": "A program that determines the importance of pixels in an image and calculates what seams can be removed using arrays to store the importance of each of the pixels and the direction of where the pixel came from starting at the bottom of the image. Built using Java.",
-                "image": "",
+                "image": "Seamcarve.png",
                 "video": "https://vimeo.com/308145650",
                 "url": "http://cs.brown.edu/courses/cs016/static/files/assignments/projects/seamcarve.pdf"
             },
             {
                 "title": "Decision Tree",
                 "category": "Implemented the ID3 algorithm recursively to generate a decision tree based on entropy, information gain, and the remainder. Also implemented in Java",
-                "image": "",
+                "image": "DecisionTree.jpg",
                 "video": "https://vimeo.com/308145253",
                 "url": "http://cs.brown.edu/courses/cs016/static/files/assignments/projects/decisiontree.pdf"
             },
@@ -194,7 +191,7 @@
             {
                 "title": "Graph",
                 "category": "Built a graph using an adjacency-matrix and an edge-set by decorating verticies with connections. Also implemented Kruskal’s algorithm and the Prim-Jarnik algorithm to generate a minimum spanning forest. Implemented in Java.",
-                "image": "robotics.jpg",
+                "image": "",
                 "video": "https://vimeo.com/308145373",
                 "url": "http://cs.brown.edu/courses/cs016/static/files/assignments/projects/graph.pdf"
             }
@@ -203,30 +200,60 @@
             {
                 "title": "Shell",
                 "category": "Created a basic shell with a REPL to take in user commands, parse the command, interpret the command, and act upon the command. Capable of accomplish simple commands such as cd, rm, ln, etc. Also able to do file redirection through creating, opening, and closing files. Have the ability to run background and foreground processes and switch between background and foreground. Can maintain jobs, reap completed jobs, and masks signals such as CTRL-C from the parent process so the shell will not terminate unless the user specifies it terminates with the exit command or CTRL-D. Built in C.",
-                "image": "robotics.jpg",
+                "image": "",
                 "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             },
             {
                 "title": "Database",
                 "category": "Using networking and multiple threads, created a server capable of connecting with multiple clients through a tcp socket connection. The server creates multiple threads to handle the clients and ensure everything is thread safe with mutexes. Also masked signals to terminate all processes with CTRL-C instead of exiting the REPL. The database is represented as a binary search tree and I also implemented fine-grained locking to ensure thread safety. Implemented in C.",
-                "image": "robotics.jpg",
+                "image": "",
                 "video": "https://www.youtube.com/watch?v=HwzBk2hUaYI",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/database.pdf"
             },
             {
                 "title": "Maze",
                 "category": "Used the drunken walk algorithm to generate a random maze given the size of the maze from the client and writes the results as a hexadecimal number to a text file. Then the solver program uses a depth first search algorithm to solve the generated maze. Implemented in C.",
-                "image": "robotics.jpg",
+                "image": "",
                 "video": "https://www.youtube.com/watch?v=tIJuBPghysk",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/maze.pdf"
             },
             {
                 "title": "Malloc",
                 "category": "Created a dynamic storage allocator by allocating memory from the system or taking space from previously allocated but is now freed blocks of memory. Maintains an \"explicit free list\" that tracks when a previously allocated piece of memory has been freed and coaleses with nearby freed blocks when a piece of memory has been freed to maximize efficiency. Created in C.",
-                "image": "robotics.jpg",
+                "image": "",
                 "video": "https://www.youtube.com/watch?v=CpE7Bn-_8tc",
                 "url": "http://cs.brown.edu/courses/cs033/docs/proj/malloc.pdf"
+            }
+        ],
+        "cs1300": [
+            {
+                "title": "Smash Melee Filter",
+                "category": "",
+                "image": "SmashMeleeFilter.png",
+                "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+                "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
+            },
+            {
+                "title": "Craiglist Redesign",
+                "category": "",
+                "image": "",
+                "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+                "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
+            },
+            {
+                "title": "Redesign: Craig List",
+                "category": "",
+                "image": "",
+                "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+                "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
+            },
+            {
+                "title": "Redesign: Craig List",
+                "category": "",
+                "image": "",
+                "video": "https://www.youtube.com/watch?v=QULkkhFRZ4g",
+                "url": "http://cs.brown.edu/courses/cs033/docs/proj/shell2.pdf"
             }
         ]
     },

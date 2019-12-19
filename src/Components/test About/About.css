@@ -1,0 +1,23 @@
+.About-Container {
+    height: 50vh;
+}
+
+.profile-pic2 {
+    height: 50vh;
+}
+
+.shade {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    position: relative;
+    height: 50vh;
+    background: white;
+    border-radius: 10px;
+}
