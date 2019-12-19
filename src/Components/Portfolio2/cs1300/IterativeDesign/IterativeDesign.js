@@ -14,7 +14,7 @@ class IterativeDesign extends Component {
                         className="center ProjectTitle"
                         style={{ color: "white" }}
                     >
-                        Iterative Design
+                        Iterative Design of Listle
                     </h1>
                     <button
                         className="CloseModalButton"
@@ -84,7 +84,7 @@ class IterativeDesign extends Component {
                                     src="https://lh3.googleusercontent.com/Q6UR7VJgTvWr6HYZeWVCncPzqHVsVNsUc5j7diX97vGJWokvg9rAwL6vvUvEBVHUsLgBbPw_NY7rBuELcxgqm2I6NJAYL9WU0F8Zc7YS"
                                 />
                             </div>
-                            <p>[Landing Page]</p>
+                            <p>Figure 1: Landing Page</p>
                         </div>
                         <div className="center IterativeDesignPrototypeImageWithCaption">
                             <div className="IterativeDesignPrototypeImageContainer">
@@ -93,7 +93,7 @@ class IterativeDesign extends Component {
                                     src="https://lh5.googleusercontent.com/uSBJlevoxwuXb8xaZN4iRBXMFutdvi66_fPWFuB5XeNgq4gDJhirSX_uJMqdOtDyh0scV33MGFi0rb_NkoGIUN2R27BzstMWDI9ofhkg"
                                 />
                             </div>
-                            <p>[Categories/Article Explore Page]</p>
+                            <p>Figure 2: Categories/Article Explore Page</p>
                         </div>
                         <div className="center IterativeDesignPrototypeImageWithCaption">
                             <div className="IterativeDesignPrototypeImageContainer">
@@ -102,7 +102,7 @@ class IterativeDesign extends Component {
                                     src="https://lh6.googleusercontent.com/2Yr3XmK3qxULLvNjIzZau1SxRegGkIzktIw7iVGOAbtHsDsyre5zI89MIqqRZ4rkif6eOfKPQcNBZPCrrCnu3tfJHUx0GgHx8Xv-R5nq"
                                 />
                             </div>
-                            <p>[Single Article Page]</p>
+                            <p>Figure 3: Single Article Page</p>
                         </div>
                         <div className="center IterativeDesignPrototypeImageWithCaption">
                             <div className="IterativeDesignPrototypeImageContainer">
@@ -111,7 +111,7 @@ class IterativeDesign extends Component {
                                     src="https://lh3.googleusercontent.com/GzF_RYi6_7E-V_Ptq8It-mMFaXl68cpm3Lx6EK-nttmjv-u9UP__nowQS-99T3uPv_dTWU9ftYq_Qt3s2UpMS9iMuIs6ZCU_bEJT56-G"
                                 />
                             </div>
-                            <p>[Profile Page]</p>
+                            <p>Figure 4: Profile Page</p>
                         </div>
                     </div>
 

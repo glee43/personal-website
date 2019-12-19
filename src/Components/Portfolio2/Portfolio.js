@@ -15,14 +15,10 @@ class Portfolio extends Component {
         super();
 
         this.state = {
-            modalIsOpen: true,
-            modalContent: <IterativeDesign closeModal={this.closeModal} />,
-            // modalContent: (
-            //     <div className="center">
-            //         <h1>Still Under Construction!</h1>
-            //     </div>
-            // ),
-            autoPlayCarousel: false
+            modalIsOpen: false,
+            autoPlayCarousel: false,
+            mainKey: 0,
+            secondKey: 3
         };
 
         this.openModal = this.openModal.bind(this);
@@ -30,20 +26,27 @@ class Portfolio extends Component {
         this.closeModal = this.closeModal.bind(this);
     }
 
-    openModal() {
-        this.setState({ modalIsOpen: true, autoPlayCarousel: false });
-    }
+    openModal = async (mainKey, secondKey) => {
+        await this.setState({
+            modalIsOpen: true,
+            autoPlayCarousel: false,
+            mainKey: mainKey,
+            secondKey: secondKey
+        });
+    };
 
     afterOpenModal() {
         // references are now sync'd and can be accessed.
     }
 
-    closeModal = () => {
+    closeModal = title => {
         this.setState({ modalIsOpen: false, autoPlayCarousel: true });
     };
 
     listProjects(data) {
-        var projects = data.map((project, index) => {
+        let mainKey = data.title;
+        let theData = data.data;
+        var projects = theData.map((project, index) => {
             return (
                 <div
                     key={index}
@@ -62,6 +65,8 @@ class Portfolio extends Component {
                                 ? ""
                                 : require("../../images/" + project.image)
                         }
+                        mainKey={mainKey}
+                        secondKey={index}
                         openModal={this.openModal}
                     />
                 </div>
@@ -69,53 +74,84 @@ class Portfolio extends Component {
         });
         return projects;
     }
-
+    getModalContent = projects => {
+        let defaultContent = (
+            <div className="center" style={{ height: "100%" }}>
+                <h1 style={{ color: "white" }}>Still Under Construction!</h1>
+            </div>
+        );
+        if (
+            this.state.mainKey === -1 ||
+            this.state.secondKey === -1 ||
+            projects === undefined
+        ) {
+            return defaultContent;
+        } else {
+            return projects[this.state.mainKey].projects[this.state.secondKey]
+                ? projects[this.state.mainKey].projects[this.state.secondKey]
+                : defaultContent;
+        }
+        return defaultContent;
+    };
     render() {
         if (this.props.data) {
-            var hackathons = this.listProjects(this.props.data.hackathons);
-            var cs0150 = this.listProjects(this.props.data.cs0150);
-            var cs0160 = this.listProjects(this.props.data.cs0160);
-            var cs0330 = this.listProjects(this.props.data.cs0330);
-            var cs1300 = this.listProjects(this.props.data.cs1300);
-
-            var projects = [cs1300, hackathons, cs0330, cs0160, cs0150];
+            var cs1300 = this.listProjects({
+                title: 0,
+                data: this.props.data.cs1300
+            });
+            var cs0330 = this.listProjects({
+                title: 1,
+                data: this.props.data.cs0330
+            });
+            var cs0160 = this.listProjects({
+                title: 2,
+                data: this.props.data.cs0160
+            });
+            var cs0150 = this.listProjects({
+                title: 3,
+                data: this.props.data.cs0150
+            });
+            var hackathons = this.listProjects({
+                title: 4,
+                data: this.props.data.hackathons
+            });
 
             var cs1300Projects = [
                 <Development closeModal={this.closeModal} />,
                 <Redesign closeModal={this.closeModal} />,
-                <IterativeDesign />,
-                <Personas />
+                <IterativeDesign closeModal={this.closeModal} />,
+                <Personas closeModal={this.closeModal} />
             ];
 
-            var projects2 = [
+            var projects = [
                 {
                     title: "CS1300: User Interfaces and User Experience",
                     data: cs1300,
                     projects: cs1300Projects
-                },
-
-                {
-                    title: "CS0330: Introduction to Computer Systems",
-                    data: cs0330,
-                    projects: []
-                },
-                {
-                    title:
-                        "CS0160: Introduction to Data Structures and Algorithms",
-                    data: cs0160,
-                    projects: []
-                },
-                {
-                    title:
-                        "CS0150: Introduction to Object-Oriented Programming",
-                    data: cs0150,
-                    projects: []
-                },
-                {
-                    title: "Hackathons and Personal Projects",
-                    data: hackathons,
-                    projects: []
                 }
+
+                // {
+                //     title: "CS0330: Introduction to Computer Systems",
+                //     data: cs0330,
+                //     projects: []
+                // },
+                // {
+                //     title:
+                //         "CS0160: Introduction to Data Structures and Algorithms",
+                //     data: cs0160,
+                //     projects: []
+                // },
+                // {
+                //     title:
+                //         "CS0150: Introduction to Object-Oriented Programming",
+                //     data: cs0150,
+                //     projects: []
+                // },
+                // {
+                //     title: "Hackathons and Personal Projects",
+                //     data: hackathons,
+                //     projects: []
+                // }
             ];
         }
 
@@ -133,9 +169,10 @@ class Portfolio extends Component {
                         interval={2500}
                         autoPlay={this.state.autoPlayCarousel}
                         height="fit-content"
+                        ariaHideApp={false}
                     >
-                        {projects2 &&
-                            projects2.map((group, idx) => {
+                        {projects &&
+                            projects.map((group, idx) => {
                                 return (
                                     <div className="center ProjectsOverallContainter">
                                         <h2 className="ProjectsTitle">
@@ -164,7 +201,7 @@ class Portfolio extends Component {
                         contentLabel="Example Modal"
                         // overlayClassName={"PortfolioOverlay"}
                     >
-                        {this.state.modalContent}
+                        {this.getModalContent(projects)}
                     </Modal>
                 </div>
             </section>

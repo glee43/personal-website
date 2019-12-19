@@ -1,0 +1,41 @@
+.RedesignImageContainer {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+.RedesignImageContainer:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+    background-image: url("https://cdn.hswstatic.com/gif/craigslist-10.jpg");
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.IterativeDesignPrototypeImageWithCaption {
+    flex-direction: column;
+}
+.IterativeDesignPrototypeImagesContainer {
+    flex-wrap: wrap;
+    position: relative;
+}
+.IterativeDesignPrototypeImageContainer {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+.IterativeDesignPrototypeImage {
+    object-fit: contain;
+}

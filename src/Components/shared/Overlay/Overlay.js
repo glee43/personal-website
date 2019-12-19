@@ -7,7 +7,15 @@ class Overlay extends Component {
     }
     render() {
         return (
-            <a onClick={this.props.openModal} className="content">
+            <a
+                onClick={() => {
+                    this.props.openModal(
+                        this.props.mainKey,
+                        this.props.secondKey
+                    );
+                }}
+                className="content"
+            >
                 <img className="project-inner-img" src={this.props.img}></img>
                 <div className="content-overlay"></div>
 
